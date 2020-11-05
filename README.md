@@ -2,7 +2,7 @@
 
 ## Object
 
-Let's selecting top K high effect SNP from GCTA mlma or mlma.loco results. The LD reports from plink can be used for pruning optionally.
+Let's selecting top K high effect SNP from GCTA mlma or mlma.loco results. The LD report from plink can be used for pruning optionally.
 
 ## Code
 this code were implemented by **python 3**
@@ -21,7 +21,7 @@ python snp_selection_from_gcta.py --gcta [1] --k [2] --out [3] --ld [4]
 
 [3]: output name (default: same name with gcta file)
 
-[4]: (option) plink LD reports
+[4]: (option) plink LD report
  
 ## Example
 ```
