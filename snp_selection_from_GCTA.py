@@ -9,6 +9,8 @@ parser.add_argument("--ld", help = "Input Plink LD results, if you don't need pr
 parser.add_argument("--k", help='Input #N of selecting marker', default = 1000, type = int)
 parser.add_argument('--out',default = None)
 args = parser.parse_args()
+if not args.out:
+    args.out = args.gcta.split('.')[0] + 'results.txt'
 
 ##open GCTA results##
 GCTA = open(args.gcta,'r')
