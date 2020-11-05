@@ -18,6 +18,7 @@ next(GCTA)
 SNP = GCTA.read().splitlines()
 print('Total {0} SNPs in GCTA results'.format(len(SNP)))
 SNP.sort(key = lambda k: abs(float((k.split()[6]))),reverse = True)
+# if you want to select by p-value, change the number 6 above to -1
 SNP = [i.split()[1] for i in SNP]
 
 #without LD punning
