@@ -1,0 +1,1 @@
+SNP_selection_from_GCTA_results
