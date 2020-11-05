@@ -63,5 +63,6 @@ for _ in range(args.k):
 
     if not SNP:
         print('Warning: K is larger than prunned markers, you should decreas K or LD threshold.')
+        print('Warning: whole prunned SNPs are saved at the results.')
         break
 print('Total {0} marker are extracted at {1}'.format(k,args.out))
