@@ -16,8 +16,11 @@ this code were implemented by **python 3**
 python snp_selection_from_gcta.py --gcta [1] --k [2] --out [3] --ld [4]
 ```
 [1]: gcta results file (mlma or mlma.loco)
+
 [2]: #N of selected SNPs (default: 1000)
+
 [3]: output name (default: same name with gcta file)
+
 [4]: (option) plink LD reports
  
 ## Example
